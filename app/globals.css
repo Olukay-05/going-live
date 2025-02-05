@@ -21,13 +21,29 @@ body {
 } */
 
 
+/* p {
+  font-size: 3rem;
+  color: #0e8086;
+  font-weight: 700;
+  margin: 0;
+  line-height: 0;
+} */
+
 p {
   font-size: 3rem;
-  /* text-align: center; */
   color: #0e8086;
   font-weight: 700;
   margin: 0;
   line-height: 0;
 }
+
+/* Media query for smaller screens */
+@media (max-width: 1024px) {
+  p {
+    line-height: normal; /* Reset line-height for screens below desktop */
+    padding-left: 2rem;
+  }
+}
+
 
 
